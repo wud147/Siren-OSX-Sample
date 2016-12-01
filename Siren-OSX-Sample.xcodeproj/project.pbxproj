@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4CE28E553D8D0C17159B1E /* Pods_Siren_OSX_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30DD06DD1825C660BCD6DB6 /* Pods_Siren_OSX_Sample.framework */; };
+		BC5D5A9F1DEFFCD500AE510D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D5A9E1DEFFCD500AE510D /* AppDelegate.swift */; };
+		BC5D5AA11DEFFCD500AE510D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D5AA01DEFFCD500AE510D /* ViewController.swift */; };
+		BC5D5AA31DEFFCD500AE510D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5D5AA21DEFFCD500AE510D /* Assets.xcassets */; };
+		BC5D5AA61DEFFCD600AE510D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5D5AA41DEFFCD600AE510D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033429486921B6A85B2C00CE /* Pods-Siren-OSX-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siren-OSX-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Siren-OSX-Sample/Pods-Siren-OSX-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		201BED17000141C6F4347717 /* Pods-Siren-OSX-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siren-OSX-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Siren-OSX-Sample/Pods-Siren-OSX-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		A30DD06DD1825C660BCD6DB6 /* Pods_Siren_OSX_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Siren_OSX_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5D5A9B1DEFFCD500AE510D /* Siren-OSX-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siren-OSX-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5D5A9E1DEFFCD500AE510D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC5D5AA01DEFFCD500AE510D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC5D5AA21DEFFCD500AE510D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC5D5AA51DEFFCD600AE510D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC5D5AA71DEFFCD600AE510D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5D5A981DEFFCD500AE510D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CE28E553D8D0C17159B1E /* Pods_Siren_OSX_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1380BF5A7A9EB0DD0CAA31B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				201BED17000141C6F4347717 /* Pods-Siren-OSX-Sample.debug.xcconfig */,
+				033429486921B6A85B2C00CE /* Pods-Siren-OSX-Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC5D5A921DEFFCD500AE510D = {
+			isa = PBXGroup;
+			children = (
+				BC5D5A9D1DEFFCD500AE510D /* Siren-OSX-Sample */,
+				BC5D5A9C1DEFFCD500AE510D /* Products */,
+				1380BF5A7A9EB0DD0CAA31B1 /* Pods */,
+				FC641CA0E471A6606FAEAE1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5D5A9C1DEFFCD500AE510D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D5A9B1DEFFCD500AE510D /* Siren-OSX-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5D5A9D1DEFFCD500AE510D /* Siren-OSX-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D5A9E1DEFFCD500AE510D /* AppDelegate.swift */,
+				BC5D5AA01DEFFCD500AE510D /* ViewController.swift */,
+				BC5D5AA21DEFFCD500AE510D /* Assets.xcassets */,
+				BC5D5AA41DEFFCD600AE510D /* Main.storyboard */,
+				BC5D5AA71DEFFCD600AE510D /* Info.plist */,
+			);
+			path = "Siren-OSX-Sample";
+			sourceTree = "<group>";
+		};
+		FC641CA0E471A6606FAEAE1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30DD06DD1825C660BCD6DB6 /* Pods_Siren_OSX_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5D5A9A1DEFFCD500AE510D /* Siren-OSX-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5D5AAA1DEFFCD600AE510D /* Build configuration list for PBXNativeTarget "Siren-OSX-Sample" */;
+			buildPhases = (
+				7A2B349E59A6AF2C23182BC9 /* [CP] Check Pods Manifest.lock */,
+				BC5D5A971DEFFCD500AE510D /* Sources */,
+				BC5D5A981DEFFCD500AE510D /* Frameworks */,
+				BC5D5A991DEFFCD500AE510D /* Resources */,
+				107B17291C0E550B4EDC4055 /* [CP] Embed Pods Frameworks */,
+				16F9E5AA526E81D0686102D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Siren-OSX-Sample";
+			productName = "Siren-OSX-Sample";
+			productReference = BC5D5A9B1DEFFCD500AE510D /* Siren-OSX-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5D5A931DEFFCD500AE510D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dong Wu";
+				TargetAttributes = {
+					BC5D5A9A1DEFFCD500AE510D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MWJ6SYE3LK;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC5D5A961DEFFCD500AE510D /* Build configuration list for PBXProject "Siren-OSX-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC5D5A921DEFFCD500AE510D;
+			productRefGroup = BC5D5A9C1DEFFCD500AE510D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5D5A9A1DEFFCD500AE510D /* Siren-OSX-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5D5A991DEFFCD500AE510D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5D5AA31DEFFCD500AE510D /* Assets.xcassets in Resources */,
+				BC5D5AA61DEFFCD600AE510D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		107B17291C0E550B4EDC4055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Siren-OSX-Sample/Pods-Siren-OSX-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16F9E5AA526E81D0686102D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Siren-OSX-Sample/Pods-Siren-OSX-Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2B349E59A6AF2C23182BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5D5A971DEFFCD500AE510D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5D5AA11DEFFCD500AE510D /* ViewController.swift in Sources */,
+				BC5D5A9F1DEFFCD500AE510D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC5D5AA41DEFFCD600AE510D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5D5AA51DEFFCD600AE510D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC5D5AA81DEFFCD600AE510D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC5D5AA91DEFFCD600AE510D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BC5D5AAB1DEFFCD600AE510D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201BED17000141C6F4347717 /* Pods-Siren-OSX-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MWJ6SYE3LK;
+				INFOPLIST_FILE = "Siren-OSX-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.dt.Xcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC5D5AAC1DEFFCD600AE510D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033429486921B6A85B2C00CE /* Pods-Siren-OSX-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MWJ6SYE3LK;
+				INFOPLIST_FILE = "Siren-OSX-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.dt.Xcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5D5A961DEFFCD500AE510D /* Build configuration list for PBXProject "Siren-OSX-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D5AA81DEFFCD600AE510D /* Debug */,
+				BC5D5AA91DEFFCD600AE510D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5D5AAA1DEFFCD600AE510D /* Build configuration list for PBXNativeTarget "Siren-OSX-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D5AAB1DEFFCD600AE510D /* Debug */,
+				BC5D5AAC1DEFFCD600AE510D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5D5A931DEFFCD500AE510D /* Project object */;
+}
